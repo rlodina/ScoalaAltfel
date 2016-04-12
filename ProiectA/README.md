@@ -1,2 +1,2 @@
-Aici voi dezvolta **proiectul A.**
+Aici voi dezvolta **proiectul A**.
 
