@@ -1,7 +1,7 @@
 ##GIT
 aplicație software care are grija de surse (Source Code Management , Version Control System) - vezi pe net.
 
-![GIT_CONCEPT](git.png)
+![GIT_CONCEPT](Git.png)
 
 Te poți gândi ca la un dropbox cu facilitați sublime de versionare și istoric al modificărilor pentru fiecare fișier.
 
