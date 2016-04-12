@@ -3,7 +3,7 @@ aplicație software care are grija de surse (Source Code Management , Version Co
 
 ![GIT_CONCEPT](Git.png)
 
-Te poți gândi ca la un dropbox cu facilitați sublime de versionare și istoric al modificărilor pentru fiecare fișier.
+Te poți gândi ca la un dropbox cu facilitați sublime de versionare și istoric al modificărilor pentru fiecare fișier. 
 
 ##GitHub - adevăratul facebook al programatorilor. 
 - aplicație web/serviciu care oferă serviciu de GIT
