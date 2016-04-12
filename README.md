@@ -1,2 +1,5 @@
-# ScoalaAltfel
-Scoala altfel - 18-22 Aprilie 2016
+# Un altfel de "Școala altfel".
+
+Ești ceea ce **alegi** să fii.
+
+
