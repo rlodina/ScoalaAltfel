@@ -51,4 +51,11 @@ Când pleci de la școală să nu uiți să dai logout:
  - dreapta sus icon: _Tools and option_
  - din meniu selectezi: _Options_
  - în pagina Options este butonul de _LogOut_
+ 
+
+####Comenzi Git
+În mod normal toate aceste comenzi se dau din linia de comandă (da din prompterul DOS):
+
+1. _git add ._ - adaugă toate fisierele (.) în zona pregătitoare pentru commit
+2. _git commit 
 
