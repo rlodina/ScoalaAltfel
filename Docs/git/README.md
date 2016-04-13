@@ -54,11 +54,11 @@ Când pleci de la școală să nu uiți să dai logout:
  
 
 ####Comenzi Git
-În mod normal toate aceste comenzi se dau din linia de comandă (da din prompterul DOS):
+În mod normal toate aceste comenzi se rulează din linia de comandă:
 
 1. _git add ._ - adaugă toate fisierele (.) "în zona pregătitoare" (stage) pentru commit
-2. _git commit 
-3. _git push_ 
+2. _git commit -m "DESCRIERE COMMIT - UN SCURT TEXT"_ - salvează aceste modificări în istoric
+3. _git push_  - salveaza aceste modificări pe GitHub 
 
 
 _git status_ - oferă indicii privind fiș. adăugate, sterse, modificate
