@@ -56,6 +56,12 @@ Când pleci de la școală să nu uiți să dai logout:
 ####Comenzi Git
 În mod normal toate aceste comenzi se dau din linia de comandă (da din prompterul DOS):
 
-1. _git add ._ - adaugă toate fisierele (.) în zona pregătitoare pentru commit
+1. _git add ._ - adaugă toate fisierele (.) "în zona pregătitoare" (stage) pentru commit
 2. _git commit 
+
+
+_git status_ - oferă indicii privind fiș. adăugate, sterse, modificate
+
+Toate aceste comenzi se dau in directorul repo-ului.
+
 
