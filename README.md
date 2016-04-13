@@ -12,7 +12,7 @@ Ești ceea ce **alegi** să fii.
 
 Temă (pentru următoarea întâlnire):
   - crează un montaj cu 9 leduri care se aprind într-o succesiune interesantă
-  - postează codul în repo-ul tău (Ex: ScoalaAltfel\EfectLedArray) pe github (fă-i și un README.md)
+  - postează codul în repo-ul tău (Ex: ScoalaAltfel\LedArray) pe github (fă-i și un README.md)
   - pune un film pe youtube sa vedem și noi cum merge
  
 
