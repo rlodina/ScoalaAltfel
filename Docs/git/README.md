@@ -61,15 +61,15 @@ Când pleci de la școală să nu uiți să dai logout:
 
 Salvare modificari in GitHub:
 
-1. _git add ._ - adaugă toate fisierele (.) "în zona pregătitoare" (stage) pentru commit
-2. _git commit -m "DESCRIERE COMMIT - UN SCURT TEXT"_ - salvează aceste modificări în istoric
-3. _git push_  - salveaza aceste modificări pe GitHub 
+1. _git commit -a -m "DESCRIERE COMMIT - UN SCURT TEXT"_ - salvează aceste modificări în istoric
+2. _git push_  - trimite aceste modificări pe GitHub 
 
 
-_git status_ - oferă indicii privind fiș. adăugate, sterse, modificate
+_git status_ - oferă informații legate de fișierele modificate, adăugate sau șterse
 
 Dacă am făcut modificări la școală și le vreau și acasă: 
--git_pull_ 
+
+_git pull_ 
 
 
 Toate aceste comenzi se dau in directorul repo-ului.
