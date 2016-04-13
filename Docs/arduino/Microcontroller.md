@@ -1,7 +1,7 @@
 ##Microcontroler - MC
 Un mic calculator implementat într-un circuit integrat.
 
-![AVR_MC](http://localhost:8080/avr_microcontrollers.jpg)
+![AVR_MC](avr_microcontrollers.jpg)
 
 Il găsim în foarte multe aparate din jurul nostru: televizor, telefon, mașina de spălat, autoturism, etc. și reprezintă _"creierul"_ acestor aparate - practic rulează un program care pe baza datelor de intrare furnizate de diverși senzori sau butoane controlează și comandă buna desfășurare a unui proces.
 
@@ -10,7 +10,7 @@ Pentru al programa:
   - îl compilăm cu un compilator care generează cod executabil pentru acel MC
   - scriem programul în MC (upload) cu ajutorul uni programator (circuit electronic care face interfață între PC și MC)
     
-![AVR_MC](http://localhost:8080/AVR-progr.jpg)
+![AVR_MC](AVR-progr.jpg)
 
 MC-ul comunică cu exteriorul prin intermediul pinilor (piciorușele care le vedeți în imaginea de mai sus). Cu câteva excepții (ex: pentru alimentare) pinii putem sa-i folosim cum dorim.
 
@@ -20,7 +20,7 @@ Evident în procedura de inițializare (din programul scris de noi) MC trebuie s
  In realitate majoritatea elementelor de execuție au nevoie de un circuit electric/electronic adaptor - asta deoarece curentul livrat de MC este foarte mic de ordinul mA (Ex: max 40 mA/pin dar nu mai mult de 200 mA per total MC)
 
 
-![Circuit_](http://localhost:8080/SimpleLed.png)
+![Circuit_](SimpleLed.png)
 
 În circuitul de mai sus LED-ul (acel beculeț) se aprinde și se stinge periodic deoarece în MC a fost încărcat următorul program (pseudo cod inventat):
 
@@ -55,7 +55,7 @@ Fiecare senzor sau element de execuție la un pin (sau mai multi) al MC-ului).
 
 ####Schema bloc a unei mașini de spălat
  
-![Schema-bloc:Mașina de spalat](http://localhost:8080/masina_de_spalat.png)
+![Schema-bloc:Mașina de spalat](masina_de_spalat.png)
 Ex: La mașina noastră de spălat - programatorul a scris un program care simplist efectuează următoarele operații:
 
  1. așteptă apăsarea butonul START (B1)
