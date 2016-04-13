@@ -11,8 +11,8 @@ Ești ceea ce **alegi** să fii.
 3. [Arduino - facem primul montaj + scriem codul](https://github.com/rlodina/ScoalaAltfel/blob/master/Docs/arduino/Joi-14.04.md)
 
 Temă (pentru următoarea întâlnire):
-  - Crează un montaj cu 9 leduri care se aprind într-o succesiune interesantă
-  - postează codul în repo-ul tău (Ex: ScoalaAltfel\Efect9Lefuri) pe github (fă-i și un README.md)
+  - crează un montaj cu 9 leduri care se aprind într-o succesiune interesantă
+  - postează codul în repo-ul tău (Ex: ScoalaAltfel\EfectLedArray) pe github (fă-i și un README.md)
   - pune un film pe youtube sa vedem și noi cum merge
  
 
