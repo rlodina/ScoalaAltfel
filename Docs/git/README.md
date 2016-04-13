@@ -15,8 +15,10 @@ Te poți gândi ca la un dropbox cu facilitați sublime de versionare și istori
 
 ![Git create repo](Git-CreateRepo.png)
 
-După creare te duce în pagina repo-ului. Deocamdată ai aici un singur fișier: README.md.
+După creere te duce în pagina repo-ului. Deocamdată ai aici un singur fișier: README.md.
 Fișierele cu extensia md (markdown) sunt fișiere text care conțin și câteva convenții legate de formatare - detalii pe net. 
+
+Pentru editarea fișierelor markdown recomand: _Sublime Text 3_ (https://www.sublimetext.com/3)
 
 ####B. Instalează GitHub desktop
 Aplicație client (o instalez pe calculatorul meu) care-mi permite să "sincronizez" un repo (structura de directoare și conținutul acestora) cu portalul GitHub.
@@ -54,7 +56,7 @@ Când pleci de la școală să nu uiți să dai logout:
  
 
 ####Comenzi Git
-În mod normal toate aceste comenzi se rulează din linia de comandă:
+În mod normal toate aceste comenzi se rulează din linia de comandă (Git Shell):
 
 1. _git add ._ - adaugă toate fisierele (.) "în zona pregătitoare" (stage) pentru commit
 2. _git commit -m "DESCRIERE COMMIT - UN SCURT TEXT"_ - salvează aceste modificări în istoric
