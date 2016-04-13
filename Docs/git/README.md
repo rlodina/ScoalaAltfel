@@ -60,6 +60,7 @@ Când pleci de la școală să nu uiți să dai logout:
 În mod normal toate aceste comenzi se rulează din linia de comandă (Git Shell):
 
 Salvare modificari in GitHub:
+
 1. _git add ._ - adaugă toate fisierele (.) "în zona pregătitoare" (stage) pentru commit
 2. _git commit -m "DESCRIERE COMMIT - UN SCURT TEXT"_ - salvează aceste modificări în istoric
 3. _git push_  - salveaza aceste modificări pe GitHub 
@@ -74,6 +75,7 @@ Dacă am făcut modificări la școală și le vreau și acasă:
 Toate aceste comenzi se dau in directorul repo-ului.
 
 Și o imagine explicativă:
+
 ![GIT commit](Git2.png)
 
 
