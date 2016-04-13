@@ -31,7 +31,7 @@ Limbajul de programare este C și C++ - evident cu o mulțime de biblioteci spec
 Nu este modul ideal de dezvoltare dar, acum în etapa noastră actuală, este mai mult decât ok.
 
 Codul trebuie sa conțină obligatoriu aceste 2 funcții (generate default la File/New):
-```cpp
+``` C++
 void setup() {
   // put your setup code here, to run once:
 
@@ -44,7 +44,7 @@ void loop() {
 ```
 La build se mai adaugă funcția main astfel (aprox.):
 
-```Cpp
+``` C++
 void main(){
 	setup();
 	while(1){
@@ -53,7 +53,7 @@ void main(){
 }
 ```
 
-##Serial terminal Arduino <-> PC
+##Serial terminal - comunicare Arduino <-> PC
 Iconul _Serial terminal_ (lupa din dreapta sus) - laseaza un program care-mi permite:
 
 1. Să afișez mesajele trimise de programul scris de mine și uploadat în Arduino. Ex: Serial.println("Hello from Arduino");
