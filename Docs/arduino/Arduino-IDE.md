@@ -32,11 +32,19 @@ Nu este modul ideal de dezvoltare dar, acum în etapa noastră actuală, este ma
 
 Codul trebuie sa conțină obligatoriu aceste 2 funcții (generate default la File/New):
 ```
-void setup() {  // put your setup code here, to run once:}void loop() {  // put your main code here, to run repeatedly:}
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
 ```
 La build se mai adaugă funcția main astfel (aprox.):
 
-```
+```C
 void main(){
 	setup();
 	while(1){
