@@ -1,5 +1,5 @@
 ##GIT
-aplicație software care are grija de surse (Source Code Management , Version Control System) - vezi pe net.
+Aplicație software care păstrează în siguranță fișierele sursă (Source Code Management , Version Control System) - vezi pe net.
 
 ![GIT_CONCEPT](Git.png)
 
