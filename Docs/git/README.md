@@ -58,6 +58,7 @@ Când pleci de la școală să nu uiți să dai logout:
 
 1. _git add ._ - adaugă toate fisierele (.) "în zona pregătitoare" (stage) pentru commit
 2. _git commit 
+3. _git push_ 
 
 
 _git status_ - oferă indicii privind fiș. adăugate, sterse, modificate

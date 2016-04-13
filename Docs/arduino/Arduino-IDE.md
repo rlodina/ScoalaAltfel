@@ -5,10 +5,10 @@ Un fel de CodeBlocks (cu bune și rele)
 Mediul de dezvoltare: https://www.arduino.cc/download_handler.php
 
 
-Se instaleaza:
+Se instalează:
  - un driver pentru portul serial 
  - un compilator pentru acest microcontroler
- - o aplicatie pentru salvarea programului compilat in MC (avrdude.exe)
+ - o aplicație pentru salvarea programului compilat în MC (avrdude.exe)
  
 
 ![Arduino IDE](ArduinoIDE.png)
@@ -19,8 +19,8 @@ Probleme cu driverul pt. portul serial ?
 
 Instaleaza USB-SERIAL CH341A :
 http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=032a878e-8ca0-40d2-b7b1-936640b0eecb
- - download si extract intr-un director pe HDD
- - in _Device Manager_ (click dreapta _My Computer_ -> Manage -> Device Manager)  
+ - download & extract într-un director pe HDD
+ - în _Device Manager_ (click dreapta _My Computer_ -> Manage -> Device Manager)  
 
 ![Device manager](CH340-windows-driver-installation.png)
 și selectezi directorul unde ai dezarhivat driverul. 
@@ -48,7 +48,7 @@ void main(){
 ##Serial terminal Arduino <-> PC
 Iconul _Serial terminal_ (lupa din dreapta sus) - laseaza un program care-mi permite:
 
-1. Să afișeaz mesajele trimise de programul scris de mine și uploadat în Arduino. Ex: Serial.println("Hello from Arduino");
+1. Să afișez mesajele trimise de programul scris de mine și uploadat în Arduino. Ex: Serial.println("Hello from Arduino");
 2. Permite trimiterea de date către Arduino. În aplicația dezvoltată și uploadată în Arduino folosesc Serial.read(), Serial.readString(), etc.
 
 Vezi : https://www.arduino.cc/en/Reference/Serial
