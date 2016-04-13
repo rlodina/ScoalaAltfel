@@ -8,11 +8,11 @@ Il găsim în foarte multe aparate din jurul nostru: televizor, telefon, mașina
 Pentru al programa:
   - scriem codul aplicație într-un limbaj de programare (ex: C sau C++)
   - îl compilăm cu un compilator care generează cod executabil pentru acel MC
-  - scriem programul în MC (upload) cu ajutorul uni programator (circuit electronic care face interfață între PC și MC)
+  - scriem programul în MC (upload) cu ajutorul unui programator (circuit electronic care face interfață între PC și MC)
     
 ![AVR_MC](AVR-progr.jpg)
 
-MC-ul comunică cu exteriorul prin intermediul pinilor (piciorușele care le vedeți în imaginea de mai sus). Cu câteva excepții (ex: pentru alimentare) pinii putem sa-i folosim cum dorim.
+MC-ul comunică cu exteriorul prin intermediul pinilor (piciorușele care le vedeți în prima imagine). Cu câteva excepții (ex: pentru alimentare) pinii putem sa-i folosim cum dorim.
 
 Evident în procedura de inițializare (din programul scris de noi) MC trebuie sa știe care pini dorim să-i folosim:
  - ca pini de intrare (INPUT PIN) - unde vom atașa senzori/butoane -> elemente de intrare
