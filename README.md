@@ -1,5 +1,7 @@
 ##Un altfel de "Școala altfel".
 
+[![Join the chat at https://gitter.im/rlodina/ScoalaAltfel](https://badges.gitter.im/rlodina/ScoalaAltfel.svg)](https://gitter.im/rlodina/ScoalaAltfel?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Ești ceea ce **alegi** să fii.
 
 
