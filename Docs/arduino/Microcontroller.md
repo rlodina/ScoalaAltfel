@@ -82,6 +82,7 @@ Ex: La mașina noastră de spălat - programatorul a scris un program care simpl
      }
     ```
     //Gata hainele's curate hai să le limpezim
+    
 12. Elimină apa + aduce apă curată în cuva (vezi 4 și 5).
 13. Limpezire - idem ca 11 
 // hai să le stoarcem
