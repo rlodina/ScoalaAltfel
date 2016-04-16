@@ -34,6 +34,7 @@ Sintaxa este de forma:
 
 YOUTUBE_VIDEO_ID_HERE - înlocuiește acest text cu codul generat de youtube pentru videoul tau
 
+PS: Filmul l-am "imprumutat" de la Razvan - merci.
 
 Info legate de frizing:
 - căutare component:
