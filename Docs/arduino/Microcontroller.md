@@ -70,6 +70,7 @@ Ex: La mașina noastră de spălat - programatorul a scris un program care simpl
  9. când valoarea citită de senzorul de temperatură apa (S4) ajunge la valoarea prestabilită oprește încălzirea apei
  10. comanda aducțiunea de detergent (E4)
  11. Spală:
+ 
     ```c++
      for(int i=0; i<4;i++){
         start_Motor(E2, 500 /* rot/min */, 1 /* sens de rotație */);
@@ -82,12 +83,13 @@ Ex: La mașina noastră de spălat - programatorul a scris un program care simpl
      }
     ```
     //Gata hainele's curate hai să le limpezim
-    
+
 12. Elimină apa + aduce apă curată în cuva (vezi 4 și 5).
 13. Limpezire - idem ca 11 
 // hai să le stoarcem
- 14. Elimină toată apa
- 15. Stoarcere:
+14. Elimină toată apa
+15. Stoarcere:
+16. 
  ```c++
  for(int i=0; i<4;i++){
     start_Motor(E2, 1800 /* rot/min */, 1 /* sens de rotație */);
