@@ -6,7 +6,7 @@ Ești ceea ce **alegi** să fii.
 
 
 
-###Scurt cuprins pentru joi 14-04:
+###Prima întâlnire:
 
 1. [Instalare Eduino IDE](https://github.com/rlodina/ScoalaAltfel/blob/master/Docs/arduino/Arduino-IDE.md)
 2. [Ce este un microcontroler ?](https://github.com/rlodina/ScoalaAltfel/blob/master/Docs/arduino/Microcontroller.md)
@@ -17,5 +17,20 @@ Temă (pentru următoarea întâlnire):
   - postează codul în repo-ul tău (Ex: ScoalaAltfel\LedArray) pe github (fă-i și un README.md)
   - pune un film pe youtube sa vedem și noi cum merge
  
+Rezumat:
+ 
+``` C++
+   //in funcția setup 
+   pinMode(3, OUTPUT);      //seteaz pinul 3 ca pin de iesire 
+   
+   //manipulare cu:
+   digitalWrite(3, HIGH);   //aprinde led-ul   
+   digitalWrite(3, LOW);    //stinge led-ul
+   
+```
 
+Remarcați că putem folosi funcția `digitalWrite` - doar pentru HIGH sau LOW (1 sau 0, pornit sau oprit). Ex: Deschide_robinetul sau Inchide_robinetul
+
+
+ 
 
