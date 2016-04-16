@@ -31,6 +31,6 @@ Rezumat:
 
 Remarcați că putem folosi funcția `digitalWrite` - doar pentru HIGH sau LOW (1 sau 0, pornit sau oprit). Ex: Deschide_robinetul sau Inchide_robinetul
 
-
+###O pată de culoare
  
 
