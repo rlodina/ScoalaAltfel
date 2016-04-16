@@ -60,6 +60,21 @@ Când pleci de la școală să nu uiți să dai logout:
  - din meniu selectezi: _Options_
  - în pagina Options este butonul de _LogOut_
  
+####README.md
+Afișar automat de GitHub dacă există in directorul curent.
+
+Este un banal fișier text care contine minime convenții legate de modul de afișare. Ex: textul `Ana **are** mere.` va fi afișat: Ana **are** mere.  
+
+Poți să-l editezi ce editor vrei - recomand Sublime text.
+
+Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool
+
+Editor: Sublime text sau dacă vrei ceva mai vizual poți încerca: MarkRight sau MarkPad sau ? (nu știu care-i mai ok pe windows).
+
+Detalii despre sintaxa markdown gasesti pe net :
+ - https://en.wikipedia.org/wiki/Markdown
+ - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+ - http://github.github.com/github-flavored-markdown 
 
 ####Comenzi Git
 
@@ -85,5 +100,6 @@ Imaginea cât 1000 de cuvinte:
 ![GIT commit](Git2.png)
 
 Workspace - directorul meu de acasă sau de la scoală
+
 Remote repository - în cazul nostru repo-ul de pe GitHub 
 
