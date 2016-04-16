@@ -80,8 +80,10 @@ _git pull_
 
 Toate aceste comenzi se dau in directorul repo-ului.
 
-Și o imagine explicativă:
+Imaginea cât 1000 de cuvinte:
 
 ![GIT commit](Git2.png)
 
+Workspace - directorul meu de acasă sau de la scoală
+Remote repository - în cazul nostru repo-ul de pe GitHub 
 
