@@ -70,17 +70,17 @@ Ex: La mașina noastră de spălat - programatorul a scris un program care simpl
  9. când valoarea citită de senzorul de temperatură apa (S4) ajunge la valoarea prestabilită oprește încălzirea apei
  10. comanda aducțiunea de detergent (E4)
  11. Spală:
-``` c++
-   for(int i=0; i<4;i++){
-        start_Motor(E2, 500 /* rot/min */, 1 /* sens de rotație */);
-        wait(1_minut);
-        
-        //schimba sensul de rotatie al motorului
-        stop_Motor(E2);
-        start_Motor(E2, 500 /* rot/min */, 0 /* sens de rotație */);
-        wait(1_minut);
-     }
-     ```
+```c++
+ for(int i=0; i<4;i++){
+    start_Motor(E2, 500 /* rot/min */, 1 /* sens de rotație */);
+    wait(1_minut);
+    
+    //schimba sensul de rotatie al motorului
+    stop_Motor(E2);
+    start_Motor(E2, 500 /* rot/min */, 0 /* sens de rotație */);
+    wait(1_minut);
+ }
+ ```
  //gata hainele's curate hai să le limpezim
  12. Elimină apa + aduce apă curată în cuva (vezi 4 și 5).
  13. Limpezire - idem ca 11
@@ -88,17 +88,17 @@ Ex: La mașina noastră de spălat - programatorul a scris un program care simpl
  // hai să le stoarcem
  14. Elimină toată apa
  15. Stoarcere:
- ``` c++
-     for(int i=0; i<4;i++){
-        start_Motor(E2, 1800 /* rot/min */, 1 /* sens de rotație */);
-        wait(0.5_minute);
-        
-        //schimba sensul de rotatie al motorului
-        stop_Motor(E2);
-        start_Motor(E2, 1800 /* rot/min */, 0 /* sens de rotație */);
-        wait(0.5_minute);
-     }
-     ```
+ ```c++
+ for(int i=0; i<4;i++){
+    start_Motor(E2, 1800 /* rot/min */, 1 /* sens de rotație */);
+    wait(0.5_minute);
+    
+    //schimba sensul de rotatie al motorului
+    stop_Motor(E2);
+    start_Motor(E2, 1800 /* rot/min */, 0 /* sens de rotație */);
+    wait(0.5_minute);
+ }
+ ```
 16. Gata - deblochează ușa și trimite o notificare pe facebook (E5 - placa de rețea - conexiune internet): "Rufele au fost spălate.".
 
 Evident ca prin intermediul lui E5 noi putem să pornim mașina direct de pe telefon + obținem informații în timp real legate de procesul de spălare (ex: unde a ajuns sau de cât timp mai este nevoie pt. ...)
