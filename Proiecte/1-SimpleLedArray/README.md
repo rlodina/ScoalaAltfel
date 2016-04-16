@@ -13,7 +13,7 @@ Video cu funcționarea:
 
 Alte informații utile:
 
-Ce coduri de formatare (markdown am folosit la acest fisier README.md): 
+Ce coduri de formatare (markdown) am folosit la acest fisier README.md ? 
 
 1. Pentru a include imaginea am folosit : `![schema](Schema.png)`.
 Sintaxa este de forma:
@@ -32,9 +32,11 @@ Sintaxa este de forma:
 
 ```
 
+YOUTUBE_VIDEO_ID_HERE - înlocuiește acest text cu codul generat de youtube pentru videoul tau
+
 
 Info legate de frizing:
-  -selectia unei componente d epe paleta.
-
-    ![schema](Seach.png)
- - 
+- căutare component:
+      ![schema](../Fritzing/seach.png)
+- selecție componente:
+      ![schema](../Fritzing/SelectComponent.png)
