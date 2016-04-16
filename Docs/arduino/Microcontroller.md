@@ -80,12 +80,12 @@ Ex: La mașina noastră de spălat - programatorul a scris un program care simpl
     start_Motor(E2, 500 /* rot/min */, 0 /* sens de rotație */);
     wait(1_minut);
  }
- ```
- //gata hainele's curate hai să le limpezim
+```
+
+//Gata hainele's curate hai să le limpezim
  12. Elimină apa + aduce apă curată în cuva (vezi 4 și 5).
- 13. Limpezire - idem ca 11
- 
- // hai să le stoarcem
+ 13. Limpezire - idem ca 11 
+// hai să le stoarcem
  14. Elimină toată apa
  15. Stoarcere:
  ```c++
