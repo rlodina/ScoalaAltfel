@@ -19,7 +19,6 @@ Temă (pentru următoarea întâlnire):
   - dă-ne un semn [Facebook](https://www.facebook.com/groups/ScoalaAltfel) - suntem extrem de curioși și nerăbdători.
 
 Rezumat:
- 
 ``` C++
    //in funcția setup 
    pinMode(3, OUTPUT);      //seteaz pinul 3 ca pin de iesire 
