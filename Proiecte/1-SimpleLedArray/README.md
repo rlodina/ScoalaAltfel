@@ -37,7 +37,11 @@ YOUTUBE_VIDEO_ID_HERE - înlocuiește acest text cu codul generat de youtube pen
 PS: Filmul l-am "imprumutat" de la Razvan - merci.
 
 Info legate de frizing:
-- căutare component:
-      ![schema](../../Docs/Fritzing/search.png)
-- selecție componente:
-      ![schema](../../Docs/Fritzing/SelectComponent.png)
+- căutare componente în bibliotecă:
+
+![schema](../../Docs/Fritzing/search.png)
+
+- selecție componentă:
+
+![schema](../../Docs/Fritzing/SelectComponent.png)
+
