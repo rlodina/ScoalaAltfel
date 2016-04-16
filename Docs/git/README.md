@@ -65,11 +65,9 @@ Fișier afișat automat de GitHub dacă există in directorul curent.
 
 Este un banal fișier text care contine minime convenții legate de modul de afișare. Ex: textul `Ana **are** mere.` va fi afișat: Ana **are** mere.  
 
-Poți să-l editezi ce editor vrei - recomand Sublime text.
+Editor: care-l preferi (inclusiv Notepad) recomand Sublime Text sau dacă vrei ceva mai vizual poți încerca: MarkRight sau MarkPad sau ? (nu știu care-i mai ok pe windows).
 
 Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool
-
-Editor: Sublime text sau dacă vrei ceva mai vizual poți încerca: MarkRight sau MarkPad sau ? (nu știu care-i mai ok pe windows).
 
 Detalii despre sintaxa markdown gasesti pe net :
  - https://en.wikipedia.org/wiki/Markdown
