@@ -32,14 +32,20 @@ Pornește aplicața instalată la punctul B.
 
 La selecția butonului "Clone **ScoalaAltfel**" trebuie să selectez un director de pe HDD-ul meu unde va clona (copia) repo-ul:
 
-
 ![GIT_CONCEPT](Git-clone2.png)
 
 La apăsarea butonului OK - tot ce am în repo-ul ScoalaAltfel de pe GitHub este copiat la mine pe sistem. In cazul meu: C:\Work\ScoalaAltfel
 
 De acum înainte orice fișier pe care-l creez în acest director în care am clonat repo-ul (C:\Work\ScoalaAltfel) îl pot sincroniza cu GitHub-ul.
 
+####D. Gata poți să oprești aplicația de sincronizare - totul este inițializat  
+Acum lucrez in mod normal cu acest director. Ex:
+  - creez/sterg/etc subdirectoare - va rog fiecare proiect intr-un director separat (ATENTIE - Arduino impune ca numele fisierului **ino** să fie identic cu numele directorului care-l contine)
+  - creez/sterg/etc fisiere 
+
 Pt. test eu am creat un director nou : ProiectA și în el un fișier README.md
+
+**Când vreau să trimit modificările pe GitHub fac commit pasul D**
 
 ####D. Commit - Sincronizarea directorului (repo-ului) local cu cel de pe GitHub:
 
