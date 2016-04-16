@@ -61,7 +61,7 @@ Când pleci de la școală să nu uiți să dai logout:
  - în pagina Options este butonul de _LogOut_
  
 ####README.md
-Afișar automat de GitHub dacă există in directorul curent.
+Fișier afișat automat de GitHub dacă există in directorul curent.
 
 Este un banal fișier text care contine minime convenții legate de modul de afișare. Ex: textul `Ana **are** mere.` va fi afișat: Ana **are** mere.  
 
