@@ -34,7 +34,7 @@ Sintaxa este de forma:
 
 
 Info legate de frizing:
- Selec
+  -selectia unei componente d epe paleta.
 
     ![schema](Seach.png)
  - 
