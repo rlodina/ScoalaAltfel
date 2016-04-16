@@ -22,7 +22,9 @@ Sintaxa este de forma:
 
 ```
 
-2. Pentru a include video de pe youtube:
+2. Pentru a include video de pe youtube am folosit `[![Video](https://img.youtube.com/vi/VA6OY-tWPuI/0.jpg)](https://www.youtube.com/watch?v=VA6OY-tWPuI)`:
+
+Sintaxa este de forma:
 
 ``` markdown
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]
