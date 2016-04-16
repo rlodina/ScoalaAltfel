@@ -42,7 +42,7 @@ Acum lucrez in mod normal cu acest director. Ex:
 
 Pt. test eu am creat un director nou : ProiectA și în el un fișier README.md
 
-**Când vreau să trimit modificările pe GitHub fac commit pasul D**
+**Când vreau să trimit modificările pe GitHub fac commit (pasul D).**
 
 ####D. Commit - Sincronizarea directorului (repo-ului) local cu cel de pe GitHub:
 

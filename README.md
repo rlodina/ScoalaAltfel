@@ -15,8 +15,9 @@ Ești ceea ce **alegi** să fii.
 Temă (pentru următoarea întâlnire):
   - crează un montaj cu 9 leduri care se aprind într-o succesiune interesantă
   - postează codul în repo-ul tău (Ex: ScoalaAltfel\LedArray) pe github (fă-i și un README.md)
-  - pune un film pe youtube sa vedem și noi cum merge
- 
+  - pune un film pe youtube să vedem și noi cum merge
+  - dă-ne un semn [Facebook](https://www.facebook.com/groups/ScoalaAltfel) - suntem extrem de curioși și nerăbdători.
+
 Rezumat:
  
 ``` C++
