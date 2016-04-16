@@ -37,6 +37,6 @@ YOUTUBE_VIDEO_ID_HERE - înlocuiește acest text cu codul generat de youtube pen
 
 Info legate de frizing:
 - căutare component:
-      ![schema](../Fritzing/seach.png)
+      ![schema](../../Fritzing/seach.png)
 - selecție componente:
-      ![schema](../Fritzing/SelectComponent.png)
+      ![schema](../../Fritzing/SelectComponent.png)
