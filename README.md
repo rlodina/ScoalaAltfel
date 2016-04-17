@@ -12,7 +12,7 @@ Ești ceea ce **alegi** să fii.
 2. [Ce este un microcontroler ?](https://github.com/rlodina/ScoalaAltfel/blob/master/Docs/arduino/Microcontroller.md)
 3. [Arduino - facem primul montaj + scriem codul](https://github.com/rlodina/ScoalaAltfel/blob/master/Docs/arduino/Joi-14.04.md)
 
-Temă (pentru următoarea întâlnire):
+######Temă (pentru următoarea întâlnire):
   - crează un montaj cu 9 leduri care se aprind într-o succesiune interesantă
   - postează codul în repo-ul tău (Ex: ScoalaAltfel\LedArray) pe github (fă-i și un README.md)
   - pune un film pe youtube să vedem și noi cum merge
@@ -56,7 +56,7 @@ Am adăugat 2 noi documente (_în lucru_) :
 - [Glosar Arduino](https://github.com/rlodina/ScoalaAltfel/blob/master/Docs/Glosar.md) - un sumar al funcțiilor folosite. Rămâne referință: https://www.arduino.cc/en/Reference/HomePage
 
 
-Temă (pentru următoarea întâlnire):
+######Temă (pentru următoarea întâlnire):
   - încerca să reproduci (cu câteva leduri și cu difuzorul) efectele vizuale și sunetul unei mașini de poliție / salvare / pompieri.
   - postează codul în repo-ul tău (Ex: ScoalaAltfel\Sirena) pe github (fă-i și un README.md)
   - pune un film pe youtube să vedem și noi cum merge
