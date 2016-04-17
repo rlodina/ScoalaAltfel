@@ -26,7 +26,7 @@ Tutorial: https://www.youtube.com/watch?v=XxLKfAZrhbM
 
 **ATENȚIE: nu se poate conecta direct la 5V.**
 
-În catalogul producătorului sunt date caracteristicile de utilizare (pt. ledu-urile noastre portocalii):
+În catalogul producătorului sunt date caracteristicile de utilizare (pt. led-urile noastre portocalii):
  - tensiunea de alimentare este 2.4 V
  - curentul de funcționare: ~18 mA 
 

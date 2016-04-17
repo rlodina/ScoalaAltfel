@@ -13,10 +13,12 @@ https://www.arduino.cc/en/Reference/HomePage
 setează 5V (HIGH) pe pinul NR_PIN sau 0V (LOW_ - față de GND (-)
 
 ##`analogWrite(NR_PIN, value);`
+ - `value` =  intre 0 (always off) și 255 (always on) 
  - **numai** pe pinii: **D3, D5, D6, D9, D10, D12**
- - se poate folosi ca să modifici intensitatea luminoasă a unui led, să modifici turația motoarelor de curent continuu, etc.
+ - se poate folosi pentru modificarea intensității luminoase a unui led, să modifici turația motoarelor de curent continuu, etc.
 
-##`delay(MILISEC);`
+##`delay(MS);`
+opreste execuția programului pentru `MS` milisecunde
 
 ##`millis()`
 Returns the number of milliseconds since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 50 days.
