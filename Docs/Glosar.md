@@ -1,4 +1,4 @@
-#Sumar funcții & diverse
+#Glosar Arduino
 
 https://www.arduino.cc/en/Reference/HomePage
 
@@ -22,6 +22,18 @@ opreste execuția programului pentru `MS` milisecunde
 
 ##`millis()`
 Returns the number of milliseconds since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 50 days.
+
+
+##`tone`   
+
+`tone(pin, frequency)` 
+
+`tone(pin, frequency, duration)`
+
+`noTone(pin)` - stop sound
+
+- **obligatoriu rezistență în serie cu difuzorul** e ok si cea de 200 ohm.
+- nu se poate folosi funcția `tone` concomitent cu `analogWrite` pe pinii 3 sau 11
 
 ##`map(value, fromLow, fromHigh, toLow, toHigh)`
 "mapeaza" valoarea `value` din intervalul  [`fromLow`, `fromHigh`] în intervalul [`toLow`, `toHigh`]
