@@ -88,5 +88,19 @@ void loop(){
 }
 ```
 
+##Difuzor - speaker
+![speaker](img/Speaker.png)
+
+- **obligatoriu rezistență în serie cu difuzorul**
+Funcții:
+- `tone(pin, frequency)` 
+- `tone(pin, frequency, duration)`
+- `noTone(pin)` - stop sound
+ 
+Obs: nu se poate folosi funcția `tone` concomitent cu `analogWrite` pe pinii 3 sau 11
+
+Librărie alternativa: [NewTone](https://bitbucket.org/teckel12/arduino-new-tone/wiki/Home)
+Detalii instalare librării în mediul Arduino IDE: https://www.arduino.cc/en/Guide/Libraries 
+
 
 
