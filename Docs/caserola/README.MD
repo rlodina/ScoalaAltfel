@@ -91,7 +91,8 @@ void loop(){
 ##Difuzor - speaker
 ![speaker](img/Speaker.png)
 
-- **obligatoriu rezistență în serie cu difuzorul**
+- **obligatoriu rezistență în serie cu difuzorul** e ok si cea de 200 ohm.
+
 Funcții:
 - `tone(pin, frequency)` 
 - `tone(pin, frequency, duration)`
