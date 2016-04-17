@@ -60,6 +60,9 @@ Temă (pentru următoarea întâlnire):
   - încerca să reproduci (cu câteva leduri și cu difuzorul) efectele vizuale și sunetul unei mașini de poliție / salvare / pompieri.
   - postează codul în repo-ul tău (Ex: ScoalaAltfel\Sirena) pe github (fă-i și un README.md)
   - pune un film pe youtube să vedem și noi cum merge
+  - dă-ne un semn [Facebook](https://www.facebook.com/groups/ScoalaAltfel) - suntem extrem de curioși și nerăbdători.
+
+  
   
 
 
