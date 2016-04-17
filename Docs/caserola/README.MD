@@ -1,6 +1,9 @@
 #Conținutul caserolei
 
+##Breadboard
+![beadboard](img/breadboard_layout.png)
 
+În imaginea de mai sus este ilustrată legătura dintre perforațiile (găurile) breadbopardului.
 ##Resistori
 
 ![Rezistoes](img/Rezistors.png)
@@ -45,9 +48,35 @@ Putem folosi:
 
 
 ##RGB - Led 
-**R**ed**G**reen**B**lue - trei leduri într-o singură componentă 
+**R**ed**G**reen**B**lue - trei led-uri într-o singură componentă 
 
 ![Led](img/RGB-led.png)
 
 Ledul RGB folosit de noi este produs de LUCKY LIGHT (cod: LL-509RGBM2E-002).[Link datasheet](http://www.tme.eu/ro/Document/28b9468ad2f4590fbef186695f40eaef/LL-509RGBM2E-002.pdf) (pagina care descrie caracteristicele unei componente).
+
+Prin combinarea celor 3 culori,în proporții diferite, (alimentăm ledurile diferit folosind `analogWrite`) obținem o gamă largă de culori (vezi: https://www.google.com/#q=RGB+color+table)
+
+![Led](img/RGB-animation.gif)
+
+http://www.mbeckler.org/microcontrollers/rgb_led/
+![Led](img/RGB-circuit.gif)
+
+``` c++
+#define PIN_RED 6
+#define PIN_GREEN 5
+#define PIN_BLUE 3
+
+void setup(){
+	pinMode(PIN_RED, OUTPUT);
+	pinMode(PIN_GREEN, OUTPUT);
+	pinMode(PIN_BLUE, OUTPUT);
+}
+
+void loop(){
+ //TBD
+ 
+}
+```
+
+
 
