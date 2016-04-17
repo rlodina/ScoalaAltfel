@@ -9,7 +9,7 @@
 ![Rezistoes](img/Rezistors.png)
 
 Valoarea este marcata (codificat) cu acele cercuri colorate după următoarea convenție:
-![Rezistors](ResistorColorCode.jpg) (tidyforms.com)
+![Rezistors](img/ResistorColorCode.jpg) (tidyforms.com)
 
 
 ####Divizorul de tensiune
