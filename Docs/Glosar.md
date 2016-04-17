@@ -25,6 +25,7 @@ Returns the number of milliseconds since the Arduino board began running the cur
 
 
 ####`tone`   
+Generează un o sunet în difuzorul conectat la pinu-ul PIN cu frecvența `frecvency` exprimată în Hz (interval [31.. 65535] Hz) și cu durata `duration` milisecunde.
 
 `tone(pin, frequency)` 
 

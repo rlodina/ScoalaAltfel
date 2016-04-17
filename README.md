@@ -33,7 +33,10 @@ Remarcați că putem folosi funcția `digitalWrite` - doar pentru HIGH sau LOW (
 
 ###O pată de culoare
 
-######Output cu tensiune variabilă 0 ... 5V. Vezi [secțiunea RGB Led](https://github.com/rlodina/ScoalaAltfel/tree/master/Docs/caserola#rgb---led).
+Este momentul să experimentezi. Lasă-te dus de val, alimentează-ți curiozitatea, încercă un cod de pe net (este plin de experimente cu Arduino).
+
+######Output cu tensiune variabilă 0 ... 5V 
+Vezi [secțiunea RGB Led](https://github.com/rlodina/ScoalaAltfel/tree/master/Docs/caserola#rgb---led).
  
 `analogWrite(PIN, value);`
  - `value` =  intre 0 (always off) și 255 (always on) 
@@ -41,7 +44,8 @@ Remarcați că putem folosi funcția `digitalWrite` - doar pentru HIGH sau LOW (
  - se poate folosi pentru modificarea intensității luminoase a unui led, să modifici turația motoarelor de curent continuu, etc.
  
 
-######Scoatem și sunete: Vezi [secțiunea speaker](https://github.com/rlodina/ScoalaAltfel/tree/master/Docs/caserola#difuzor---speaker)
+######Scoatem și sunete
+ Vezi [secțiunea speaker](https://github.com/rlodina/ScoalaAltfel/tree/master/Docs/caserola#difuzor---speaker)
 
 `tone(PIN, frequency, duration)` - generează un o sunet în difuzorul conectat la pinu-ul PIN cu frecvența `frecvency` exprimată în Hz (interval [31.. 65535] Hz) și cu durata `duration` milisecunde.
 
@@ -50,4 +54,12 @@ Remarcați că putem folosi funcția `digitalWrite` - doar pentru HIGH sau LOW (
 Am adăugat 2 noi documente (_în lucru_) : 
 - [Conținutul caserolei](https://github.com/rlodina/ScoalaAltfel/tree/master/Docs/caserola) - cu descrierea și explicații legate de componentele din caserolă
 - [Glosar Arduino](https://github.com/rlodina/ScoalaAltfel/blob/master/Docs/Glosar.md) - un sumar al funcțiilor folosite. Rămâne referință: https://www.arduino.cc/en/Reference/HomePage
+
+
+Temă (pentru următoarea întâlnire):
+  - încerca să reproduci (cu câteva leduri și cu difuzorul) efectele vizuale și sunetul unei mașini de poliție / salvare / pompieri.
+  - postează codul în repo-ul tău (Ex: ScoalaAltfel\Sirena) pe github (fă-i și un README.md)
+  - pune un film pe youtube să vedem și noi cum merge
+  
+
 
