@@ -97,6 +97,8 @@ Funcții:
 - `tone(pin, frequency)` 
 - `tone(pin, frequency, duration)`
 - `noTone(pin)` - stop sound
+
+Generează un o sunet în difuzorul conectat la pinu-ul PIN cu frecvența `frecvency` exprimată în Hz (interval [31.. 65535] Hz) și cu durata `duration` milisecunde.
  
 Obs: nu se poate folosi funcția `tone` concomitent cu `analogWrite` pe pinii 3 sau 11
 

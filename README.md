@@ -47,7 +47,7 @@ Vezi [secțiunea RGB Led](https://github.com/rlodina/ScoalaAltfel/tree/master/Do
 ######Scoatem și sunete
  Vezi [secțiunea speaker](https://github.com/rlodina/ScoalaAltfel/tree/master/Docs/caserola#difuzor---speaker)
 
-`tone(PIN, frequency, duration)` - generează un o sunet în difuzorul conectat la pinu-ul PIN cu frecvența `frecvency` exprimată în Hz (interval [31.. 65535] Hz) și cu durata `duration` milisecunde.
+`tone(PIN, frequency, duration)` - generează un o sunet în difuzorul conectat la pin-ul PIN cu frecvența `frecvency` exprimată în Hz (interval [31.. 65535] Hz) și cu durata `duration` milisecunde.
 
 
 ######News:
