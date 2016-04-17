@@ -18,7 +18,7 @@ Tutorial: https://www.youtube.com/watch?v=XxLKfAZrhbM
 
 ##Led - Light Emitting Diode
   
-![Led](Led.jpg)
+![Led](led.jpg)
 
 
 **ATENȚIE: nu se poate conecta direct la 5V.**
