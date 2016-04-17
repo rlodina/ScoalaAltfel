@@ -41,12 +41,10 @@ Remarcați că putem folosi funcția `digitalWrite` - doar pentru HIGH sau LOW (
  - se poate folosi pentru modificarea intensității luminoase a unui led, să modifici turația motoarelor de curent continuu, etc.
  
 
-######Scoatem și sunete:
+######Scoatem și sunete: Vezi [secțiunea speaker](https://github.com/rlodina/ScoalaAltfel/tree/master/Docs/caserola#difuzor---speaker)
 
 `tone(PIN, frequency, duration)` - generează un o sunet în difuzorul conectat la pinu-ul PIN cu frecvența `frecvency` exprimată în Hz (interval [31.. 65535] Hz) și cu durata `duration` milisecunde.
 
-
-Vezi [secțiunea speaker](https://github.com/rlodina/ScoalaAltfel/tree/master/Docs/caserola#difuzor---speaker)
 
 ######News:
 Am adăugat 2 noi documente (_în lucru_) : 
