@@ -66,15 +66,25 @@ http://www.mbeckler.org/microcontrollers/rgb_led/
 #define PIN_GREEN 5
 #define PIN_BLUE 3
 
+#define NUM_COLORS 13
+byte colors[NUM_COLORS][3] = {
+    {0,255,0}, {0,0,255}, {255,255,0}, {0,255,255}, {255,0,255}, {192,192,192}, {128,128,128}, 
+    {128,0,0}, {128,128,0}, {0,128,0}, {128,0,128}, {0,128,128}, {0,0,128}
+};
+
 void setup(){
-	pinMode(PIN_RED, OUTPUT);
-	pinMode(PIN_GREEN, OUTPUT);
-	pinMode(PIN_BLUE, OUTPUT);
+    pinMode(PIN_RED, OUTPUT);
+    pinMode(PIN_GREEN, OUTPUT);
+    pinMode(PIN_BLUE, OUTPUT);
 }
 
 void loop(){
- //TBD
- 
+    for(byte i = 0; i< NUM_COLORS; i++){
+        analogWrite(PIN_RED, colors[i][0]);
+        analogWrite(PIN_GREEN, colors[i][1]);
+        analogWrite(PIN_BLUE, colors[i][2]);    
+        delay(400);
+    }
 }
 ```
 
