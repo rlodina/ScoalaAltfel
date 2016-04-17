@@ -50,16 +50,16 @@ Putem folosi:
 ##RGB - Led 
 **R**ed**G**reen**B**lue - trei led-uri într-o singură componentă 
 
-![Led](img/RGB-led.png)
+![RGB Led](img/RGB-led.png)
 
 Ledul RGB folosit de noi este produs de LUCKY LIGHT (cod: LL-509RGBM2E-002).[Link datasheet](http://www.tme.eu/ro/Document/28b9468ad2f4590fbef186695f40eaef/LL-509RGBM2E-002.pdf) (pagina care descrie caracteristicele unei componente).
 
 Prin combinarea celor 3 culori,în proporții diferite, (alimentăm ledurile diferit folosind `analogWrite`) obținem o gamă largă de culori (vezi: https://www.google.com/#q=RGB+color+table)
 
-![Led](img/RGB-animation.gif)
+![color_composition](img/RGB-animation.gif)
 
 http://www.mbeckler.org/microcontrollers/rgb_led/
-![Led](img/RGB-circuit.png)
+![RGB Circuit](img/RGB-circuit.png)
 
 ``` c++
 #define PIN_RED 6
