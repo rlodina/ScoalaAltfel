@@ -3,7 +3,7 @@
 ##Breadboard
 ![beadboard](img/breadboard_layout.png)
 
-În imaginea de mai sus este ilustrată legătura dintre perforațiile (găurile) breadbopardului.
+În imaginea de mai sus este ilustrată legătura dintre perforațiile (găurile) breadboardului.
 ##Resistori
 
 ![Rezistoes](img/Rezistors.png)
@@ -59,7 +59,7 @@ Prin combinarea celor 3 culori,în proporții diferite, (alimentăm ledurile dif
 ![Led](img/RGB-animation.gif)
 
 http://www.mbeckler.org/microcontrollers/rgb_led/
-![Led](img/RGB-circuit.gif)
+![Led](img/RGB-circuit.png)
 
 ``` c++
 #define PIN_RED 6
