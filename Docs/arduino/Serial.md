@@ -107,8 +107,8 @@ void loop(){
         byte blue = Serial.parseInt();    
 
         analogWrite(PIN_RED, red);
-        analogWrite(PIN_GREEN, colors[i][1]);
-        analogWrite(PIN_BLUE, colors[i][2]);    
+        analogWrite(PIN_GREEN, green);
+        analogWrite(PIN_BLUE, blue);   
     }
 }
 ```
