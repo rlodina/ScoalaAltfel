@@ -11,7 +11,7 @@ Se instalează:
  - o aplicație pentru salvarea programului compilat în MC (avrdude.exe)
  
 
-![Arduino IDE](ArduinoIDE.png)
+![Arduino IDE](img/ArduinoIDE.png)
 
 
 
@@ -22,7 +22,7 @@ http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=032
  - download & extract într-un director pe HDD
  - în _Device Manager_ (click dreapta _My Computer_ -> Manage -> Device Manager)  
 
-![Device manager](CH340-windows-driver-installation.png)
+![Device manager](img/CH340-windows-driver-installation.png)
 și selectezi directorul unde ai dezarhivat driverul. 
 
 ##Editor

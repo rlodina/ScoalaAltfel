@@ -4,7 +4,7 @@ Platforma de dezvoltare (prototipizare) - open source (http://arduino.cc)
 
 ##Arduino nano
 
-![Ardino_Nano](nano.jpg)
+![Ardino_Nano](img/nano.jpg)
 
 
 MC ATmega328 
@@ -19,10 +19,7 @@ MC ATmega328
         (zona de memorie persistenta unde poți face diverse salvări Ex: parametrii de configurare)
 - Frecventa MC: 16 Mhz
 
-
 Maximum 40 mA/pin (20 mA recomandat), Cumulat (toți pinii) nu trebuie să depășească 200 mA.
-
-
  
 Comunicarea **PC->Arduino** se poate face cu orice terminal serial (ex: PUTTY). Exista unul inclus în IDE (Serial terminal - icon lupă dreapta sus) 
 
@@ -92,12 +89,12 @@ Haideți să-l construim.
 
 ##Breadboard-ul:
 
-![Ardino_Nano](basic_breadboard_layout.png)
+![Ardino_Nano](img/basic_breadboard_layout.png)
 
 În imaginea de mai sus este ilustrată legătura dintre perforațiile (găurile) breadbopardului.
 
 ##LED
-![Ardino_Nano](led.jpg)
+![Ardino_Nano](img/led.jpg)
 
 **ATENȚIE: nu se poate conecta direct la 5V.**
 
@@ -113,12 +110,12 @@ Căderea de tensiune (dorită) pe rezistor => 5V - 2.4V  = 2.6V
 
 Noi vom pune o rezistență de 200 Ohm.
 
-![Ardino_Nano](R200.jpg)
+![Ardino_Nano](img/R200.jpg)
 
 Google: _rezistor color code_
 
 ##Schema montajului
-![Ardino_Nano](SimpleLed-schema.png)
+![Ardino_Nano](img/SimpleLed-schema.png)
 
 ###Verificăm cu mare atenție montajul înainte de a-l alimenta (prin mufa USB). Atenție la scurtcircuite!
 

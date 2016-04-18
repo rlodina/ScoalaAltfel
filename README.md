@@ -62,7 +62,7 @@ Am adăugat 2 noi documente (_în lucru_) :
   - pune un film pe youtube să vedem și noi cum merge
   - dă-ne un semn [Facebook](https://www.facebook.com/groups/ScoalaAltfel) - suntem extrem de curioși și nerăbdători.
 
-  
+
   
 
 
