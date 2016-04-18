@@ -31,10 +31,11 @@ Rezultatul cred că-l bănuiți:
 
 ``` 
 My name is Ionel
- My name is Marcela
+My name is Marcela
 ``` 
 
 Funcții definite in clasa `Serial`: (vezi si aici: https://www.arduino.cc/en/Reference/Serial)
+
 `Seria.Begin(speed)` - setează parametrii de configurare ce guverneaza comunicarea Arduino -> Calculator
  - `speed' = viteza de comunicare (in bits per second (baud) - long): 300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, or 115200
  - de regulă este apelată în funcția `Setup`
