@@ -32,7 +32,7 @@ Rezultatul cred că-l bănuiți:
 ``` 
 My name is Ionel
 My name is Marcela
-``` 
+```
 
 Funcții definite in clasa `Serial`: (vezi si aici: https://www.arduino.cc/en/Reference/Serial)
 
@@ -50,7 +50,7 @@ Serial.print(78) gives "78"
 Serial.print(1.23456) gives "1.23"
 Serial.print('N') gives "N"
 Serial.print("Hello world.") gives "Hello world."
-``` 
+```
 
 Ex: de program:
 ``` c++
@@ -64,8 +64,55 @@ void loop(){
 	Serial.println(i++);      //trimite conținutul variabilei i la calculator
 	delay(1000);
 }
-``` 
+```
 
 Pentru a intercepta pe calculator datele trimise de Arduino folosim o aplicatie de tip "serial terminal" - există una inclusă în Arduino IDE - o pornim cu butonul  _Serial terminal_ (lupa din dreapta sus):
 ![Serial](img/Serial.png)
+
+####Comunicarea PC->Arduino 
+Datele le trimit de la calculator tot cu aplicatia "serial terminal" (vezi imaginea de mais sus) și în Arduino interceptez cu următoarele funcții:
+
+`int Serial.available()`  returnează nr. de caractere (bytes) disponibile pentru citire din portul serial - 
+
+Citire date din portul serial (https://www.arduino.cc/en/Reference/Serial):
+- `Serial.read()`  
+- `Serial.readString()`
+- `Serial.readStringUntil()`    
+- `Serial.parseInt()`  - gândeștete la cin >> n;
+- `Serial.parseFloat()` 
+- etc
+
+Exemplu - comanda unui led RGB de pe calculator:
+Detalii despre ledul RGB [aici](../caserola#rgb---led)
+
+``` c++
+#define PIN_RED 6
+#define PIN_GREEN 5
+#define PIN_BLUE 3
+
+void setup(){
+    
+    Serial.begin(9600);                 //config viteza de comm cu PC-ul
+
+    pinMode(PIN_RED, OUTPUT);
+    pinMode(PIN_GREEN, OUTPUT);
+    pinMode(PIN_BLUE, OUTPUT);
+}
+
+void loop(){
+    if (Serial.available()){            //sau trimis date de la calculator ?
+
+        byte red = Serial.parseInt();    //citeste un nr. din buffer. 
+        byte green = Serial.parseInt();    
+        byte blue = Serial.parseInt();    
+
+        analogWrite(PIN_RED, red);
+        analogWrite(PIN_GREEN, colors[i][1]);
+        analogWrite(PIN_BLUE, colors[i][2]);    
+    }
+}
+```
+
+Deschide un serial terminal si trimite 3 numere: 102 205 170 si apasă butonul Send.
+
 
