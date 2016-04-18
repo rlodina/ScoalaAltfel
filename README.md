@@ -63,7 +63,7 @@ Am adăugat 2 noi documente (_în lucru_) :
   - dă-ne un semn [Facebook](https://www.facebook.com/groups/ScoalaAltfel) - suntem extrem de curioși și nerăbdători.
 
 ###Comunic de exist 
-Comunicarea intre calculator si arduino: [Serial](arduino/Serial.md)
+Comunicarea intre calculator si arduino: [Serial](Docs/arduino/Serial.md)
 
 
 
