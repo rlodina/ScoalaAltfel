@@ -6,14 +6,16 @@ Detalii legate de ansablare [aici](Ansamblare.md)
 
 #Componente noi
 
-##Măsurarea distanței până la un obstacol - HC-SR04
+##HC-SR04 - măsurarea distanței până la un obstacol
 
 ![HR-SR04_POZA](img/HC-SR04.jpg)
 
 Principiu de funcționare:
 
 ![HR-SR04](img/Ultrasonic-Sensor-Equasions.png)
+
 1. Ping:  emite un sunet cu frecvența de 40000 Hz - ultrasunet (noi nu-l putem auzi) - este un difuzor.
+
 2. Echo: măsurăm timpul necesar intoarcerii undelor sonore reflectate (echo) - cu un fel de microfon
  
 http://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
@@ -57,4 +59,12 @@ void loop(){
 
  - poți săi verifici precizia cu un liniar si un obstacol 
  - teoretic poate măsura distante cuprinse între 2 cm și 4 m (cu precizie de câțiva mm)
+
+##H-Bridge - driver motoare
+
+Sensul de rotatie al unui motor de curent continuu se poate schimba inversând firele de alimentare (+ cu -)
+
+Deoarece motorașele folosite de noi consuma ~200 mA nu le putem alimenta direct din microcontroler (Arduino) - mai țineți minte un pin poate oferi maxim 40 mA. De accea folosim o placă adaptoare - driver:
+
+
 
