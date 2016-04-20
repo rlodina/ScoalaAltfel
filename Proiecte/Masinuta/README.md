@@ -68,7 +68,7 @@ Deoarece motorașele folosite de noi consuma ~200 mA nu le putem alimenta direct
 
  ![H-Bridge](img/H-Bridge.jpg)
 
-Pinii:
+Controlăm funcționarea motoarelor prin pinii driverului I1 ... I4:
 
 - **IN1** și **IN2** controlează funcnționarea motorului **A** 
     - IN1 = LOW și IN2 = LOW => STOP motor **A**
@@ -80,4 +80,59 @@ Pinii:
     - IN3 = HIGH și IN4 = LOW => motor **B** se rotește în sensul acelor de ceasornic
     - IN3 = LOW și IN4 = HIGH => motor **B** se rotește în sensul **invers** al acelor de ceasornic
 
+Putem concepe un mic exemplu (cod netestat):
+
+``` c++
+//Motorul A
+int in1 = 10;   //conectez IN1 de la driver la pinul 10 la MC
+int in2 = 9;  
+
+//Motorul B
+int in3 = 5;
+int in4 = 3;
+
+void setup()
+{
+    // setam toti pinii ca OUTPUT
+    pinMode(in1, OUTPUT);
+    pinMode(in2, OUTPUT);
+    pinMode(in3, OUTPUT);
+    pinMode(in4, OUTPUT);
+}
+
+void loop(){
+    // porneste motor A deplasare înainte 
+    digitalWrite(in1, HIGH);
+    digitalWrite(in2, LOW);
+
+    // porneste motor B deplasare înainte 
+    digitalWrite(in3, HIGH);
+    digitalWrite(in4, LOW);
+
+    delay(2000);    // în timpul acestui delay motoarele merg 
+
+    //stop motor A 
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, LOW);
+
+    //stop motor B 
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, LOW);
+
+    delay(1000);
+
+
+    //Mergem cu spatele 
+
+    // porneste motor A deplasare înapoi 
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, HIGH);
+
+    // porneste motor B deplasare înapoi 
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, HIGH);
+
+    delay(2000);    
+}
+```
 
