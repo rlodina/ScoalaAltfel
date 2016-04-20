@@ -136,3 +136,13 @@ void loop(){
 }
 ```
 
+
+Dezvoltarea codului mașinuței astfel încât să ocololească un obstacol pe care-l întâlnește în cale (ex: schimbă direcția la dreapta) constitue marea provocare a voastă pentru azi.
+
+Măine dacă avem timp îl optimizăm impreună.
+
+_Hints_: 
+  - pentru eficien'a organizării codului facețivă funcții de genul : forward, left, right, stop, back cae trateaza functionarea motoarelor
+  - experimentați diverse valori ale distanței minime în care mașinuța poate vira
+
+Succes
