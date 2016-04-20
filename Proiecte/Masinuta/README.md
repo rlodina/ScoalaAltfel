@@ -9,14 +9,16 @@ Detalii legate de ansablare [aici](Ansamblare.md)
 ##Măsurarea distanței până la un obstacol - HC-SR04
 
 ![HR-SR04_POZA](img/HC-SR04.jpg)
+
 Principiu de funcționare:
 
 ![HR-SR04](img/Ultrasonic-Sensor-Equasions.png)
-
+1. Ping:  emite un sunet cu frecvența de 40000 Hz - ultrasunet (noi nu-l putem auzi) - este un difuzor.
+2. Echo: măsurăm timpul necesar intoarcerii undelor sonore reflectate (echo) - cu un fel de microfon
+ 
 http://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
 
 Cod simplu de test:
-Pentru a rula acest cod:
  - alimentati senzorul HC-SR04 (+ si -)
  - conectati pinul trig (trigger) as senzorului la pin 7 al MC-ului
  - conectati pinul echo as senzorului la pin 8 al MC-ului
@@ -37,7 +39,7 @@ void setup(){
  
 void loop(){
     digitalWrite(trigger_Pin, LOW);
-    digitalWrite(trigger_Pin, HIGH);    //emitem un semnal ultrasonic
+    digitalWrite(trigger_Pin, HIGH);    //emitem un ultrasunet
     delayMicroseconds(10);              //un delay mai minuțios    
     digitalWrite(trigger_Pin, LOW);     //stop emitere semnal
     
@@ -54,6 +56,5 @@ void loop(){
 ```
 
  - poți săi verifici precizia cu un liniar si un obstacol 
- - emite un sunet cu frecvența de 40000 Hz - ultrasunet (noi nu-l putem auzi)
  - teoretic poate măsura distante cuprinse între 2 cm și 4 m (cu precizie de câțiva mm)
 
