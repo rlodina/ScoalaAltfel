@@ -22,10 +22,21 @@
 ####Suportul pentru baterii
 ![img-7](img/img_7.jpg)
 
-####Puntea H
+####H-Bridge - driver pentru motoare
 ![img-8](img/img_8.jpg)
 
 ####Buton ON | OFF
 ![img-9](img/img_9.jpg)
 ![img-10](img/img_10.jpg)
 
+
+####Breadboard
+![img-11](img/img_11.jpg)
+
+
+####Conexiuni 
+![img-13](img/img_13.jpg)
+![img-14](img/img_14.jpg)
+
+####Se uită la tine ... 
+![img-15](img/img_15.jpg)
