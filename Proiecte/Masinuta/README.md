@@ -66,5 +66,18 @@ Sensul de rotatie al unui motor de curent continuu se poate schimba inversând f
 
 Deoarece motorașele folosite de noi consuma ~200 mA nu le putem alimenta direct din microcontroler (Arduino) - mai țineți minte un pin poate oferi maxim 40 mA. De accea folosim o placă adaptoare - driver:
 
+ ![H-Bridge](img/H-Bridge.jpg)
+
+Pinii:
+
+- **IN1** și **IN2** controlează funcnționarea motorului **A** 
+    - IN1 = LOW și IN2 = LOW => STOP motor **A**
+    - IN1 = HIGH și IN2 = LOW => motor **A** se rotește în sensul acelor de ceasornic
+    - IN1 = LOW și IN2 = HIGH => motor **A** se rotește în sensul **invers** al acelor de ceasornic
+    
+- **IN3** și **IN4** controlează funcnționarea motorului **B**
+    - IN3 = LOW și IN4 = LOW => STOP motor **B**
+    - IN3 = HIGH și IN4 = LOW => motor **B** se rotește în sensul acelor de ceasornic
+    - IN3 = LOW și IN4 = HIGH => motor **B** se rotește în sensul **invers** al acelor de ceasornic
 
 
