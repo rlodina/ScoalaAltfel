@@ -69,6 +69,7 @@ Comunicarea intre calculator si arduino: [Serial](Docs/arduino/Serial.md)
 [Ansamblăm și programăm mașinuța](Proiecte/Masinuta/README.md)
 
 ![masinuta](Proiecte/Masinuta/img/img_12_small.jpg)
-  
+
+Punem la treabă bagajul de cunoștințe acumulat până acum.
 
 
