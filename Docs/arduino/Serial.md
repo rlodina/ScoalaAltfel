@@ -113,7 +113,7 @@ void loop(){
 }
 ```
 
-Deschide un serial terminal si trimite 3 numere: 102 205 170 si apasă butonul Send - remarcă schimbarea culorii afi1ate de led. Ei ... ce părere ai ? 
+Deschide un serial terminal si trimite 3 numere: 102 205 170 si apasă butonul Send - remarcă schimbarea culorii afișate de led. Ei ... ce părere ai ? 
 
 Aruncă o privire peste toate functiile diponibile in clasa `Serial` : https://www.arduino.cc/en/Reference/Serial
 
