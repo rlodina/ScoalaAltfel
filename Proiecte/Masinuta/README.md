@@ -142,7 +142,7 @@ Dezvoltarea codului mașinuței astfel încât să ocololească un obstacol pe c
 Măine dacă avem timp îl optimizăm impreună.
 
 _Hints_: 
-  - pentru eficien'a organizării codului facețivă funcții de genul : forward, left, right, stop, back cae trateaza functionarea motoarelor
+  - pentru eficien'a organizării codului creați funcții de genul : forward, left, right, stop, back cae trateaza functionarea motoarelor
   - experimentați diverse valori ale distanței minime în care mașinuța poate vira
 
 Succes
