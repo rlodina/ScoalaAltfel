@@ -4,7 +4,7 @@
 ![img-12](img/img_12.jpg)
 
 ###Layout de montaj - un fel de schemă
-![layout](img/layout.png)
+![layout](img/Layout.png)
 
 
 ###Etape de montaj
