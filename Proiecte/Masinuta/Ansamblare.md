@@ -10,18 +10,22 @@
 ###Etape de montaj
 
 ####Fixăm motoarele
-![img-1](img/layout.jpg)
-![img-2](img/layout.jpg)
-![img-3](img/layout.jpg)
+![img-1](img/img_1.jpg)
+![img-2](img/img_2.jpg)
+![img-3](img/img_3.jpg)
 
 ####Roata din spate
-![img-4](img/layout.jpg)
-![img-5](img/layout.jpg)
-![img-6](img/layout.jpg)
+![img-4](img/img_4.jpg)
+![img-5](img/img_5.jpg)
+![img-6](img/img_6.jpg)
 
 ####Suportul pentru baterii
-![img-7](img/layout.jpg)
+![img-7](img/img_7.jpg)
 
 ####Puntea H
-![img-8](img/layout.jpg)
+![img-8](img/img_8.jpg)
+
+####Buton ON | OFF
+![img-9](img/img_9.jpg)
+
 
