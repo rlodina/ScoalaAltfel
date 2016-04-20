@@ -8,6 +8,7 @@ Detalii legate de ansablare [aici](Ansamblare.md)
 
 ##Măsurarea distanței până la un obstacol - HC-SR04
 
+![HR-SR04_POZA](img/HC-SR04.jpg)
 Principiu de funcționare:
 
 ![HR-SR04](img/Ultrasonic-Sensor-Equasions.png)
