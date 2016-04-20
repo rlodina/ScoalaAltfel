@@ -38,5 +38,5 @@
 ![img-13](img/img_13.jpg)
 ![img-14](img/img_14.jpg)
 
-####Se uită la tine ... 
+####Gata - deja te privește direct în ochi  ... 
 ![img-15](img/img_15.jpg)
