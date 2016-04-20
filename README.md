@@ -65,8 +65,9 @@ Am adăugat 2 noi documente (_în lucru_) :
 ###Comunic de exist 
 Comunicarea intre calculator si arduino: [Serial](Docs/arduino/Serial.md)
 
-
-
+###E pur si muove
+[Ansamblăm și programăm mașinuța](Proiecte/Masinuta/README.md)
+![masinuta](Proiecte/Masinuta/img/img_12_small.jpg)
   
 
 
