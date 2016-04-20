@@ -10,7 +10,6 @@ Detalii legate de ansablare [aici](Ansamblare.md)
 
 Principiu de funcționare:
 
-
 ![HR-SR04](img/Ultrasonic-Sensor-Equasions.png)
 
 http://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
