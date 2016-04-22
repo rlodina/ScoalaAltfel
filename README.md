@@ -1,4 +1,4 @@
-##Un altfel de "Școala altfel".
+##O altfel de "Școala altfel".
 
 [![Join the chat at https://gitter.im/rlodina/ScoalaAltfel](https://badges.gitter.im/rlodina/ScoalaAltfel.svg)](https://gitter.im/rlodina/ScoalaAltfel?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -71,5 +71,6 @@ Comunicarea intre calculator si arduino: [Serial](Docs/arduino/Serial.md)
 ![masinuta](Proiecte/Masinuta/img/img_12_small.jpg)
 
 Punem la treabă bagajul de cunoștințe acumulat până acum.
+
 
 
