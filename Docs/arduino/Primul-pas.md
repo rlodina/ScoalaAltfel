@@ -1,8 +1,8 @@
-#Arduino
+# Arduino
 
 Platforma de dezvoltare (prototipizare) - open source (http://arduino.cc)
 
-##Arduino nano
+## Arduino nano
 
 ![Ardino_Nano](img/nano.jpg)
 
@@ -32,7 +32,7 @@ Datele trimise de către Arduino vor fi afișate în terminal.
 Noi programăm grupul de pini digitali și grupul _Analog pins_ (vezi imaginea de mai sus).
 
 
-##Digital pins  
+## Digital pins  
 Se numesc _digitals pin_ deoarece pot procesa (citi sau afișa) doar una din următoarele valori: 
  - HIGH - exista tensiune (5V) pe pin față de GND (-)
  - LOW  - nu există tensiune pe pin (0V) 
@@ -87,13 +87,13 @@ void main(){
 
 Haideți să-l construim.
 
-##Breadboard-ul:
+## Breadboard-ul:
 
 ![Ardino_Nano](img/basic_breadboard_layout.png)
 
 În imaginea de mai sus este ilustrată legătura dintre perforațiile (găurile) breadbopardului.
 
-##LED
+## LED
 ![Ardino_Nano](img/led.jpg)
 
 **ATENȚIE: nu se poate conecta direct la 5V.**
@@ -114,9 +114,9 @@ Noi vom pune o rezistență de 200 Ohm.
 
 Google: _rezistor color code_
 
-##Schema montajului
+## Schema montajului
 ![Ardino_Nano](img/SimpleLed-schema.png)
 
-###Verificăm cu mare atenție montajul înainte de a-l alimenta (prin mufa USB). Atenție la scurtcircuite!
+### Verificăm cu mare atenție montajul înainte de a-l alimenta (prin mufa USB). Atenție la scurtcircuite!
 
 

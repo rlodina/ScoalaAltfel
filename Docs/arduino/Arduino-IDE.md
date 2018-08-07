@@ -1,7 +1,7 @@
-##Arduino IDE
+## Arduino IDE
 Un fel de CodeBlocks (cu bune și rele)
 
-###Instalare
+### Instalare
 Mediul de dezvoltare: https://www.arduino.cc/download_handler.php
 
 
@@ -25,7 +25,7 @@ http://catalog.update.microsoft.com/v7/site/ScopedViewRedirect.aspx?updateid=032
 ![Device manager](img/CH340-windows-driver-installation.png)
 și selectezi directorul unde ai dezarhivat driverul. 
 
-##Editor
+## Editor
 Limbajul de programare este C și C++ - evident cu o mulțime de biblioteci specifice.
 
 Nu este modul ideal de dezvoltare dar, acum în etapa noastră actuală, este mai mult decât ok.
@@ -53,7 +53,7 @@ void main(){
 }
 ```
 
-##Serial terminal - comunicare Arduino <-> PC
+## Serial terminal - comunicare Arduino <-> PC
 Iconul _Serial terminal_ (lupa din dreapta sus) - laseaza un program care-mi permite:
 
 1. Să afișez mesajele trimise de programul scris de mine și uploadat în Arduino. Ex: Serial.println("Hello from Arduino");

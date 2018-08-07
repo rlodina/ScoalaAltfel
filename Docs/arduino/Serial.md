@@ -1,4 +1,4 @@
-###Comunicare Arduino <-> Calculator 
+### Comunicare Arduino <-> Calculator 
 Comunicarea se face folosind pinii digitali 0 (RX) si 1 (TX) si la calculator prin portul USB.
 Trimiterea de date către calculator sau citirea datelor trimise de calculator se face cu _clasa_ Serial.
 
@@ -40,7 +40,7 @@ Funcții definite in clasa `Serial`: (vezi si aici: https://www.arduino.cc/en/Re
  - `speed` = viteza de comunicare (in bits per second (baud) - long): 300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, or 115200
  - de regulă este apelată în funcția `Setup`
 
-####Comunicarea Arduino -> PC
+#### Comunicarea Arduino -> PC
  `void Seria.print(data)` - trimite la calculator `data`  
  `void Seria.println(data)` 
  
@@ -69,7 +69,7 @@ void loop(){
 Pentru a intercepta pe calculator datele trimise de Arduino folosim o aplicatie de tip "serial terminal" - există una inclusă în Arduino IDE - o pornim cu butonul  _Serial terminal_ (lupa din dreapta sus):
 ![Serial](img/Serial.png)
 
-####Comunicarea PC->Arduino 
+#### Comunicarea PC->Arduino 
 Datele le trimit de la calculator tot cu aplicatia "serial terminal" (vezi imaginea de mais sus) și în Arduino interceptez cu următoarele funcții:
 
 `int Serial.available()`  returnează nr. de caractere (bytes) disponibile pentru citire din portul serial - 

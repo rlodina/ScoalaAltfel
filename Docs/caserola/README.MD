@@ -1,10 +1,10 @@
-#Conținutul caserolei
+# Conținutul caserolei
 
-##Breadboard
+## Breadboard
 ![beadboard](img/breadboard_layout.png)
 
 În imaginea de mai sus este ilustrată legătura dintre perforațiile (găurile) breadboardului.
-##Resistori
+## Resistori
 
 ![Rezistoes](img/Rezistors.png)
 
@@ -12,14 +12,14 @@ Valoarea este marcata (codificat) cu acele cercuri colorate după următoarea co
 ![Rezistors](img/ResistorColorCode.jpg) (tidyforms.com)
 
 
-####Divizorul de tensiune
+#### Divizorul de tensiune
 Dacă unei grupări de rezistori înseriate i se aplica tensiunea Vin, de pe una din rezistentele grupării se poate culege o fracțiune din tensiunea aplicată, obținandu-se un divizor de tensiune (divizorul de tensiune rezistiv).
 
 ![Divizor_tens](img/DivizorulDeTensiune.png)
 
 Tutorial: https://www.youtube.com/watch?v=XxLKfAZrhbM
 
-##Led - Light Emitting Diode
+## Led - Light Emitting Diode
   
 ![Led](img/led.jpg)
 
@@ -47,7 +47,7 @@ Putem folosi:
 - `analogWrite`  - cu modificare tensiune de alimentare led ( 0 (off) .... 255(maxim))
 
 
-##RGB - Led 
+## RGB - Led 
 **R**ed**G**reen**B**lue - trei led-uri într-o singură componentă 
 
 ![RGB Led](img/RGB-led.png)
@@ -88,7 +88,7 @@ void loop(){
 }
 ```
 
-##Difuzor - speaker
+## Difuzor - speaker
 ![speaker](img/Speaker.png)
 
 - **obligatoriu rezistență în serie cu difuzorul** e ok si cea de 200 ohm.

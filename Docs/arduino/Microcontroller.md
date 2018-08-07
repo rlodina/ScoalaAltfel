@@ -1,4 +1,4 @@
-##Microcontroler - MC
+## Microcontroler - MC
 Un mic calculator implementat într-un circuit integrat.
 
 ![AVR_MC](img/avr_microcontrollers.jpg)
@@ -44,7 +44,7 @@ Evident în procedura de inițializare (din programul scris de noi) MC trebuie s
 ```
 
 
-###Senzor 
+### Senzor 
  Denumire generică a unui dispozitiv - circuit electric/electronic care reacționează (ex: generează o tensiune sau își modifică rezistența) la anumite proprietăți fizice sau chimice ale mediului din preajma lui.
 
 Ex: 
@@ -53,7 +53,7 @@ Ex:
 Fiecare senzor sau element de execuție la un pin (sau mai multi) al MC-ului).
  
 
-####Schema bloc a unei mașini de spălat
+#### Schema bloc a unei mașini de spălat
  
 ![Schema-bloc:Mașina de spalat](img/masina_de_spalat.png)
 
